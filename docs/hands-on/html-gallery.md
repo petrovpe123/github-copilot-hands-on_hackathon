@@ -123,7 +123,7 @@ Optionally, ask Copilot Chat if it is possible to make the images different from
 Let's add some CSS to style our gallery. We'll create a 3 by 3 grid layout and add some basic styling to the images. We want the images to have a polaroid effect.
 
 !!! tip "Copilot Tip"
-    Add a style tag in the head section and add a comment describing the styling you want to create. Or you can use Copilot Ask or Edit Mode to generate the styling for the polaroid effect.
+    Add a style tag in the head section and add a comment describing the styling you want to create. Or you can use Copilot Ask or Agent Mode to generate the styling for the polaroid effect.Edit
 
 You can use the following prompt in Github Copilot chat to generate the CSS code for the polaroid effect: ``I want images in the gallery to have a 3 by 3 grid layout and look like a polaroid photo. What do I need to add?``
 
@@ -158,7 +158,7 @@ You can use the following prompt in Github Copilot chat to generate the CSS code
 Now, let's add some hover effects to make our gallery more interactive. The images should wobble when you hover over them in an infinite loop. We also want to reduce the opacity of the non-hovered images.
 
 !!! tip "Copilot Tip"
-    Ask Github Copilot Ask/Edit Mode to generate the styling code for hovering effects. Remember to have the index.html file open in the editor.
+    Ask Github Copilot Ask/Agent Mode to generate the styling code for hovering effects. Remember to have the index.html file open in the editor.
 
 Inspect the result and accept the changes made under ``<style>`` tag in your html file.
 

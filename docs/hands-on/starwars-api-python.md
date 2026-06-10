@@ -128,7 +128,7 @@ Let's start by using Luke Skywalker as an example: [https://swapi.info/people/1]
 Now, let's create a data class to represent a Star Wars character.
 
 !!! tip "Copilot Tip"
-     Create a `star_wars_character.py` file and use Github Copilot Ask/Edit mode to create a data class for the Star Wars Character. You can use the JSON payload above as an example payload within the prompt.
+     Create a `star_wars_character.py` file and use Github Copilot Agent mode to create a data class for the Star Wars Character. You can use the JSON payload above as an example payload within the prompt.
 
 Remember that you can directly create files out of Copilot chat by clicking on the three dots icon and then clicking `Insert into New File`, if you are using the Ask mode:
 
@@ -353,7 +353,7 @@ We will now implement the `getDarthVader` method in the `StarWarsAPIImpl` class.
 !!! tip "Copilot Tip"
      Add a new method to the `StarWarsAPI` abstract base class and implement it in the `StarWarsAPIImpl` class.
      
-     Either use a comment or **the Copilot Edit/Agent mode** with a prompt: `Add a method to get information about Darth Vader`.
+     Either use a comment or **the Copilot Agent mode** with a prompt: `Add a method to get information about Darth Vader`.
 
 First, add the method to the abstract base class in `star_wars_api.py`:
 
