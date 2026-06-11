@@ -224,7 +224,7 @@ Now, let's create a DTO to represent a Star Wars character.
 >
 > Remember that you can directly create files out of Copilot chat by clicking on the three dots icon and then clicking `Insert into New File`, if you are using the Ask mode:
 >
-> ![image: insert into new file](../assets/images/starwarsapi/2.png){ width=400px }
+> ![image: insert into new file](../assets/images/starwarsapi/2.png)
 
 <details>
 <summary><strong>Sample solution</strong></summary>
@@ -405,7 +405,7 @@ Remember that this file needs to be stored in the same folder like your `App.jav
 >
 > Quick fix menu should look like this:
 >
-> ![quick fix menu image](../assets/images/starwarsapi/3.png){ width=400px }
+> ![quick fix menu image](../assets/images/starwarsapi/3.png)
 
 ### Step 4: Create the API Interface
 
@@ -528,7 +528,7 @@ public class StarWarsAPIImpl implements StarWarsAPI {
 
 Now we will implement the method. Just move the cursor on the class name and use the quick fix menu to implement the method:
 
-![use quick fix image](../assets/images/starwarsapi/4.png){ width=400px }
+![use quick fix image](../assets/images/starwarsapi/4.png)
 
 Your `StarWarsAPIImpl.java` file should look like the sample below:
 
@@ -729,13 +729,13 @@ The `getLukeSkywalker` method throws an `IOException`. But the `HttpClient` clas
 We will fix this by adding the `InterruptedException` to the `throws` clause of the method. This also means that we need to add the `InterruptedException` to the `throws` clause of the `getLukeSkywalker` method in the `StarWarsAPI` interface. And afterwards to the **try/catch** block in the `StarWarsAPITest.java` file.
 
 - Use the Quick Fix menu (`CMD+.` or `Control+.`) to add the `InterruptedException` to the `throws` clause of the `getLukeSkywalker` method.
- ![image quick fix menu](../assets/images/starwarsapi/5.png){ width=400px }
+ ![image quick fix menu](../assets/images/starwarsapi/5.png)
 
 - Use the Quick Fix menu (`CMD+.` or `Control+.`) to add the `InterruptedException` to the `throws` clause of the `getLukeSkywalker` method in the `StarWarsAPI` interface.
-![image quick fix menu](../assets/images/starwarsapi//6.png){ width=500px }
+![image quick fix menu](../assets/images/starwarsapi/6.png)
 
 - Use the Quick Fix menu (`CMD+.` or `Control+.`) to add the `InterruptedException` to the `try/catch` block in the `StarWarsAPITest.java` file.
-![image quick fix menu](../assets/images/starwarsapi/7.png){ width=500px }
+![image quick fix menu](../assets/images/starwarsapi/7.png)
 
 After these steps, your files should look like the samples below:
 
